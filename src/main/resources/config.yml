@@ -1,0 +1,55 @@
+# Discord 機器人 Token
+botToken: "YOUR_DISCORD_BOT_TOKEN"
+
+# Discord 頻道 ID
+channelId: "YOUR_DISCORD_CHANNEL_ID"
+
+# 機器人狀態 (PLAYING, WATCHING, LISTENING, STREAMING)
+botStatus:
+  type: "PLAYING"
+  message: "Minecraft with Nukkit"
+
+# 啟用 Discord 控制台
+discordConsole: false
+
+# Discord 伺服器控制台頻道 ID
+consoleChannelId: ""
+
+# 執行控制台指令所需的角色
+consoleRole: ""
+
+# 在控制台顯示伺服器狀態訊息
+consoleStatusMessages: true
+
+# 記錄 Discord 控制台指令
+logConsoleCommands: true
+
+# 啟用 Discord -> Minecraft 功能
+enableDiscordToMinecraft: true
+
+# 是否啟用 Minecraft -> Discord 功能
+enableMinecraftToDiscord: true
+
+# 啟用加入遊戲訊息發送到 Discord
+joinMessages: true
+
+# 啟用離開遊戲訊息發送到 Discord
+quitMessages: true
+
+# 啟用死亡訊息發送到 Discord
+deathMessages: true
+
+# 啟用伺服器啟動訊息發送到 Discord
+startMessages: true
+
+# 啟用伺服器關閉訊息發送到 Discord
+stopMessages: true
+
+# 自訂訊息格式
+messages:
+  discordToMinecraft: "[Discord] {username}: {message}"
+  minecraftToDiscord: "[Minecraft] {username}: {message}"
+  playerJoin: "[Minecraft] {username} 加入了遊戲！"
+  playerQuit: "[Minecraft] {username} 離開了遊戲！"
+  serverStart: "伺服器已啟動！"
+  serverStop: "伺服器已關閉！"

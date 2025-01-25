@@ -1,0 +1,6 @@
+name: DiscordBridge
+version: 1.0
+main: com.dc.maomy.DiscordBridge
+api: ["1.0.0"]
+author: Maomy
+description: A plugin to bridge Discord and Minecraft server.
